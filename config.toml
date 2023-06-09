@@ -1,6 +1,6 @@
-baseURL = 'https://foad.gitlab-pages.forge.education.gouv.f/appsdocs/'
-languageCode = 'en-us'
-title = 'AppsDocs'
+baseURL = "https://foad.gitlab-pages.forge.education.gouv.f/appsdocs/"
+languageCode = en-us"
+title = "AppsDocs"
 theme = "hugo-dsfr"
 
 [params]
