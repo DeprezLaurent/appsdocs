@@ -19,7 +19,7 @@ pages:
   only:
   - main
 
-publish:
+deploy:
   image: alpine:latest
   stage: publish
   script:
