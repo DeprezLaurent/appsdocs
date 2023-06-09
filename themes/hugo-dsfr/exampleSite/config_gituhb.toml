@@ -1,0 +1,17 @@
+baseURL = "https://filo31410.github.io/testhugo.github.io/"
+
+theme = 'blank'
+
+title = "Le Pont"
+author = "Filo"
+copyright = ""
+languageCode = "en-US"
+
+enableRobotsTXT = true
+
+
+[params]
+  description = ""
+  subtitle = "Pôle des Outils Numériques Transverses"
+  favicon = "images/favicon.png"
+

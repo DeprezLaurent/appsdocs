@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}"  data-fr-scheme="system">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	{{ partial "style" . }}	
+	{{ with .OutputFormats.Get "RSS" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+	{{- end }}
+</head>
+<body>
+
+	{{ partial "header" . }}
+	{{ partial "nav" . }}
+
+
+ 
+
+ <div class="fr-container">
+
+  <div class="fr-grid-row fr-grid-row--gutters fr-pt-5w" >
+ 
+
+       {{- block "main" . }}{{- end }}
+        	
+ </div>
+ </div> 
+ <br/>     
+	{{ partial "footer" . }}
+	{{ partial "js" . }}
+</body>
+</html>

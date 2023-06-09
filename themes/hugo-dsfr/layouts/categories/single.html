@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main role="main" id="main" class="fr-container">
+<a class="fr-link fr-fi-arrow-left-line fr-link--icon-right" title="Retour" href="{{ $.Site.BaseURL }}documentation" target="_self" rel="noopener">Tous les services</a>   
+<br><br>
+<h1>{{ $.Param "service" }}</h1>
+
+
+
+		  			  	 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+							<div class="fr-col-xs-12 fr-col-md-10 fr-col-xl-8 fr-py-2w">
+          		  
+		
+		
+								<div>
+								{{ .Content }}
+								</div>
+				
+
+		
+							</div>
+						</div>
+		
+</main>
+
+<a class="fr-link fr-fi-arrow-left-line fr-link--icon-right" title="Retour" href="{{ $.Site.BaseURL }}documentation" target="_self" rel="noopener">Tous les services</a> 
+
+
+{{ end }}

@@ -1,0 +1,14 @@
+ <section class="fr-accordion">
+        <h3 class="fr-accordion__title">
+            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-{{.Get `id` }}">{{.Get `titre` }} </button>
+        </h3>
+        	<div class="fr-collapse" id="accordion-{{.Get `id` }}">
+         		<div class="fond_clair">
+            		<!-- données de test -->
+            		<h4 class="fr-h4">{{.Get `titre` }} </h4>
+            		<p>{{.Get `texte` }}</p>
+            		
+             		</div>
+        	</div>
+</section>
+<br/>

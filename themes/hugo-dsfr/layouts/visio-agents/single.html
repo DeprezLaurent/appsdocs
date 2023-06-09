@@ -1,0 +1,66 @@
+{{ define "main" }}
+<main role="main" id="main" class="fr-container">
+		
+	
+	     	
+		
+				  	 	 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+						 
+							<div class="fr-col-xs-12 fr-col-md-10 fr-col-xl-8 fr-py-2w">
+     
+	 		<!-- lien retour vers autres tuotirels du service -->
+	<a class="fr-link fr-fi-arrow-left-line fr-link--icon-right" title="Les autres tutoriels Visio-Agents" href="{{ $.Site.BaseURL }}/categories/visio-agents/" target="_self" rel="noopener">Les autres tutoriels Visio-Agents</a>   
+	<br><br><br>
+	 
+		<h2><i class="{{ $.Param "icone" }}" style="font-size: 2rem; color: #000091;"></i>    {{ .Title }}</h2>
+		
+
+	<!-- Conentu éventuel du la page : description, autre sinfos , etc... -->
+			<div>
+			{{ .Content }}
+			</div>
+
+				
+				
+		<!-- VIDEO -->
+		<h4>Tutoriel vidéo</h4>
+	
+		<iframe class="fr-responsive-vid" src="{{ $.Param "urlvideo" }}/?is_iframe=true" style="padding: 0; margin: 0; border: 1px solid black;" allowfullscreen ></iframe>
+			
+		<br/><br/>
+		
+		
+		
+		
+		
+		<!-- PDF -->
+		<h4>Tutoriel PDF</h4>
+				
+		
+		<div class="fr-downloads-group fr-downloads-group--bordered">
+			   
+				<ul>
+					<li>
+						<div class="fr-download">
+							<p>
+								<a href="{{ $.Site.BaseURL }}pdf/visio-agents/{{ $.Param "pdf" }}" download="" class="fr-download__link" target="_blank">Télécharger le guide 
+									<span class="fr-download__detail">
+										PDF – {{ $.Param "poidspdf" }} 
+									</span>
+								</a>
+							</p>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		
+						
+
+		
+							</div>
+						</div>
+		
+</main>
+
+{{ end }}

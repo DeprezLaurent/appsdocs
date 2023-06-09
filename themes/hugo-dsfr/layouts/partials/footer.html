@@ -1,0 +1,58 @@
+<!-- footer -->
+<footer class="fr-footer" role="contentinfo" id="footer">
+    <div class="fr-container">
+        <div class="fr-footer__body">
+            <div class="fr-footer__brand fr-enlarge-link">
+                <a href="/" title="Retour ࠬaccueil">
+                                        
+                            
+                            
+                            <p class="fr-logo">
+                               		
+                               		{{ with .Site.Params.description}}{{ . | safeHTML }}{{ end }}
+         						</p>
+                            
+                            
+                            
+                            
+                            
+                </a>
+            </div>
+            <div class="fr-footer__content">
+                <p class="fr-footer__content-desc">Direction du numérique pour l'éducation</p>
+                <ul class="fr-footer__content-list">
+                    <li class="fr-footer__content-item">
+                        <a class="fr-footer__content-link" href="https://www.education.gouv.fr/" target="_blank">education.gouv.fr</a>
+                    </li>
+                    <li class="fr-footer__content-item">
+                        <a class="fr-footer__content-link" href="https://portail.apps.education.fr/" target="_blank">apps.education.fr</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+        <div class="fr-footer__bottom">
+            <ul class="fr-footer__bottom-list">
+                <li class="fr-footer__bottom-item">
+                    <a class="fr-footer__bottom-link" href="{{ $.Site.BaseURL }}plan/">Plan du site</a>
+                </li>
+                <li class="fr-footer__bottom-item">
+                    <a class="fr-footer__bottom-link" href="{{ $.Site.BaseURL }}accessibilite/">Accessibilit&eacute;</a>
+                </li>
+                <li class="fr-footer__bottom-item">
+                    <a class="fr-footer__bottom-link" href="{{ $.Site.BaseURL }}mentions/">Mentions l&eacute;gales</a>
+                </li>
+                <li class="fr-footer__bottom-item">
+                    <a class="fr-footer__bottom-link" href="{{ $.Site.BaseURL }}donnees/">Donn&eacute;es personnelles</a>
+                </li>
+                <li class="fr-footer__bottom-item">
+                    <a class="fr-footer__bottom-link" href="{{ $.Site.BaseURL }}cookies/">Gestion des cookies</a>
+                </li>
+            </ul>
+            <div class="fr-footer__bottom-copy">
+                <p>Sauf mention contraire, tous les contenus de ce site sont sous <a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>

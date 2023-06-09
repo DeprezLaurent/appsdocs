@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main role="main" id="main" class="fr-container">
+		
+	
+	     	<h2>Actualités</h2>
+		
+				  	 	 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+						 
+							<div class="fr-col-xs-12 fr-col-md-10 fr-col-xl-8 fr-py-7w">
+     
+	 		<!-- lien retour vers autres tuotirels du service -->
+	<a class="fr-link fr-fi-arrow-left-line fr-link--icon-right" title="Les autres actualités" href="{{ $.Site.BaseURL }}/actualites" target="_self" rel="noopener">Les autres actualités {{ $.Param "service" }}</a>   
+	<br><br><br>
+	 
+		<h2>{{ .Page.Title }}</h2>
+		<p class="fr-text--light">Publié le <time datetime="{{ .Date.Format "2006-01-02T15" }}">{{ .Date.Format "02.01.2006" }}</time></p>
+
+	<!-- Conentu éventuel du la page : description, autre sinfos , etc... -->
+			<div>
+			{{ .Content }}
+			</div>
+
+
+		
+</main>
+
+{{ end }}

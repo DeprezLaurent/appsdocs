@@ -1,0 +1,18 @@
+baseURL = "/"
+
+theme = 'blank'
+
+title = "Le Pont"
+author = "Filo"
+copyright = ""
+languageCode = "en-US"
+
+enableRobotsTXT = true
+
+
+[params]
+description =  "MINISTERE, <br>DE L'EDUCATION <BR> NATIONALE,<BR>DE LA JEUNESSE<BR>ET DES SPORTS" 
+subtitle = "Pôle des Outils Numériques Transverses"
+ 
+
+

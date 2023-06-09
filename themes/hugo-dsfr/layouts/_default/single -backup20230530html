@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main>
+		
+		
+	<div class="fr-container">
+		<div class="fr-grid-row fr-grid-row--gutters fr-pt-5w" >
+			<div class="fr-col"><h2>{{ .Title }}</h2></div>
+			<div class="fr-col-4"></div>
+    			<div class="fr-col-12 fr-col-lg-4"></div>
+  		</div>
+  		
+  		<div>
+	{{ .Content }}
+	</div>
+	</div>
+
+			
+	
+			
+		
+</main>
+
+{{ end }}

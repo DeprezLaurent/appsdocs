@@ -1,0 +1,39 @@
+<header>
+	<!--HEADER -->
+	<header role="banner" class="fr-header">
+    		<div class="fr-header__body">
+        		<div class="fr-container">
+            			<div class="fr-header__body-row">
+                			<div class="fr-header__brand fr-enlarge-link">
+                    				<div class="fr-header__brand-top">
+  							<div class="fr-header__logo">
+							<p class="fr-logo">
+                               		
+                               		{{ with .Site.Params.description}}{{ . | safeHTML }}{{ end }}
+         						</p>
+                        				</div>
+                        				
+                        				 <div class="fr-header__navbar">
+							    <button class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="modal-header" aria-haspopup="menu" title="Menu">
+								Menu
+							    </button>
+                        				</div>
+                    				</div>
+                    				<div class="fr-header__service">
+                        			<a href="{{ $.Site.BaseURL }}" title="Accueil - Le Pont - Pôle des Outils Numériques Transverses">
+                          			<p class="fr-header__service-title">{{.Site.Title}}</p>
+                        			</a>
+                        			<p class="fr-header__service-tagline">{{$.Site.Params.subtitle}}</p>
+                    				</div>
+                			</div>
+          
+                   		 </div>
+                	</div>
+            	</div>
+        </div>
+    </div>
+    
+
+                         
+	
+
