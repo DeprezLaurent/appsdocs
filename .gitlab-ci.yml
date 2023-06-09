@@ -18,6 +18,13 @@ pages:
     - public
   only:
   - main
+
+publish:
+  image: alpine:latest
+  stage: publish
+  script:
+    - apk add lftp
+    - lftp -c "open $FTP_HOSTNAME; user $FTP_USERNAME $FTP_PASSWORD; mirror -Rev public/ dest/web/appsdocs; quit"
   
 
 
