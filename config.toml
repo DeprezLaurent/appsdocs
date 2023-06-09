@@ -1,5 +1,5 @@
 baseURL = "https://foad.gitlab-pages.forge.education.gouv.f/appsdocs/"
-languageCode = en-us"
+languageCode = "en-us"
 title = "AppsDocs"
 theme = "hugo-dsfr"
 
