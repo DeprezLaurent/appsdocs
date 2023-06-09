@@ -6,6 +6,7 @@ variables:
 
 test:
   script:
+  - ls themes/hugo-dsfr
   - hugo
   except:
   - main
