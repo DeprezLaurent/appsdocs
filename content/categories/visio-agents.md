@@ -239,7 +239,7 @@ urlservice: "visio-agents"
 					<div class="fr-tile fr-enlarge-link">
 						<div class="fr-tile__body">      
 						<h4 class="fr-tile__title">       
-						<a class="fr-tile__link" href="{{< baseurl >}}visio-agents/je_suis_presentateur/">Je suis présentateur</a>    
+						<a class="fr-tile__link" href="{{< baseurl >}}visio-agents/je_suis_presentateur/">Les outils du présentateur</a>    
 						</h4>         
 						</div>      
 						<div class="fr-tile__img"> 
