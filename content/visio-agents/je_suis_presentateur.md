@@ -7,4 +7,13 @@ pdf: "TutoPdf_OutilsPresentateur.pdf"
 poidspdf: "3.71 Mo"
 icone: "bi bi-person-square"
 ---
-Certains écrans ont évolué depuis la version 2.6 de Visio-Agents sortie en juin 2023. Ces nouveautés sont prises en compte dans le guide PDF ci-dessous et seront mises à jour prochainement dans le tutoriel vidéo.
+*Certains écrans ont évolué depuis la version 2.6 de Visio-Agents sortie en juin 2023. Ces nouveautés sont prises en compte dans le guide PDF ci-dessous et seront mises à jour prochainement dans le tutoriel vidéo.*  
+##### Au sommaire :
+- Présenter des documents
+- Partager l’écran
+- Utiliser le tableau blanc
+- Faire des sondages
+- Partager une vidéo externe
+Paramétrer l'affichage des webcams et de la présentation
+- Partager des notes et présentation  
+
