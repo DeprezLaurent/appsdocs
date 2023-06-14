@@ -10,7 +10,7 @@ weight: 1
  
 Afin d'accompagner l'usage des services numériques proposés aux agents de l'Education nationale, notamment via le portail apps.education.fr, des documentations et tutoriels sont proposées ici par le Pole FOAD de la Direction du numérique pour l'éducation en collaboration avec les porteurs de projets des services.
 Les ressources sont régulièrement mises à jour.  
-Pour toute question sur ces ressources : {{< lien titre="pole.foad@ac-toulouse.fr" adresse="mailto:pole.foad@ac-toulouse.fr" >}}.    
+  
 {{< image image="2274.jpg" alt="" legende="" largeur="300" >}}
 
 {{< image image="apps-logo-sansfond.svg" alt="Logo Apps" largeur="240" >}}  
