@@ -27,7 +27,7 @@ urlservice: "visio-agents"
 					<div class="fr-tile fr-enlarge-link">     
 						<div class="fr-tile__body">  
 						<h4 class="fr-tile__title">  
-						<a class="fr-tile__link" href="{{< baseurl >}}visio-agents/nouveautes/">Nouveautés</a> 
+						<a class="fr-tile__link" href="{{< baseurl >}}visio-agents/nouveautes/">Nouveautés Juin 2023</a> 
 						</h4>          
 						</div>       
 						<div class="fr-tile__img">  
