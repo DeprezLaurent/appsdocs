@@ -13,7 +13,8 @@ Les ressources sont régulièrement mises à jour.
   
 {{< image image="2274.jpg" alt="" legende="" largeur="300" >}}  
 
-
+  
+{{< sautdeligne >}} 
 {{< image image="apps-logo-sansfond.svg" alt="Logo Apps" largeur="240" >}}  
 
 Apps.education.fr est une plateforme développée au sein de la <b>Direction du numérique pour l'éducation</b> pour proposer les outils essentiels du quotidien à l'ensemble des agents de l'Éducation nationale. 
