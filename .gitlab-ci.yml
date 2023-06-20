@@ -8,7 +8,7 @@ test:
   script:
    - hugo
   except:
-  - main
+  - V1.2_LD
 
 pages:
   script:
@@ -17,7 +17,7 @@ pages:
     paths:
     - public
   only:
-  - main
+  - V1.2_LD
 
 deploy:
   image: alpine:latest
@@ -25,7 +25,3 @@ deploy:
   script:
     - apk add lftp
     - lftp -c "open $FTP_HOSTNAME; user $FTP_USERNAME $FTP_PASSWORD; mirror -Rev public/ web/appsdocs_V1.2_LD; quit"
-  
-
-
-
