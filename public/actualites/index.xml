@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Actualités on AppsDocs TEST</title>
+    <link>https://foad.phm.education.gouv.fr/appsdocs_V1.2_LD/actualites/</link>
+    <description>Recent content in Actualités on AppsDocs TEST</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Apr 2022 23:59:37 +0200</lastBuildDate><atom:link href="https://foad.phm.education.gouv.fr/appsdocs_V1.2_LD/actualites/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nouvelle version de Visio-Agents : juin 2023</title>
+      <link>https://foad.phm.education.gouv.fr/appsdocs_V1.2_LD/actualites/20230605_va_26/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://foad.phm.education.gouv.fr/appsdocs_V1.2_LD/actualites/20230605_va_26/</guid>
+      <description>Une nouvelle version de Visio-Agents et Classes virtuelles arrive courant juin. Les principales nouvelles fonctionnalités apportées par cette mise à jour sont :
+Un nouveau tableau blanc avec de nouveaux outils d&amp;rsquo;écriture et de dessin, la possibilité de manipuler indépendamment les éléments, de nouvelles possibiltiés de mise en forme. La possibilité de récupérer dans la salle principale les travaux réalisés dans les groupes de travail La possiblité de rendre disponible au téléchargement la présentation annotée dans la discussion publique Le mode sombre Une nouvelle fenêtre pour paramétrer la mise en page des webcams et de la présentation Transformer les notes partagées en présentation pouvant être annotée dans la zone principale La possibiltié de récupérer l&amp;rsquo;enregistrement de la session au format mp4 </description>
+    </item>
+    
+  </channel>
+</rss>
