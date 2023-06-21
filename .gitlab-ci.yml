@@ -8,7 +8,7 @@ test:
   script:
    - hugo
   except:
-  - V1.2_LD
+  - dev1
 
 pages:
   script:
@@ -17,7 +17,7 @@ pages:
     paths:
     - public
   only:
-  - V1.2_LD
+  - dev1
 
 deploy:
   image: alpine:latest
