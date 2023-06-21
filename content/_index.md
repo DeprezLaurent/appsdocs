@@ -13,7 +13,7 @@ Les ressources sont régulièrement mises à jour.
   
 {{< image image="2274.jpg" alt="" legende="" largeur="300" >}}  
 
-  
+   
 {{< sautdeligne >}} 
 {{< image image="apps-logo-sansfond.svg" alt="Logo Apps" largeur="240" >}}  
 
