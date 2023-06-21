@@ -1,6 +1,6 @@
-baseURL = 'https://foad.phm.education.gouv.fr/appsdocs/'
+baseURL = 'https://foad.phm.education.gouv.fr/appsdocs_V1.2_LD/'
 languageCode = 'en-us'
-title = 'AppsDocs'
+title = 'AppsDocs Dev1'
 theme = "hugo-dsfr"
 
 [params]
