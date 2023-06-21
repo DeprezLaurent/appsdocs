@@ -25,7 +25,3 @@ deploy:
   script:
     - apk add lftp
     - lftp -c "open $FTP_HOSTNAME; user $FTP_USERNAME $FTP_PASSWORD; mirror -Rev public/ web/appsdocs; quit"
-  
-
-
-
